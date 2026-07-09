@@ -1,132 +1,305 @@
-# Digital Campaigns Performance Analysis
+# Digital Marketing Campaign Performance Analysis
 
 ![Excel](https://img.shields.io/badge/Microsoft_Excel-Statistical_Analysis-217346)
 ![Tableau](https://img.shields.io/badge/Tableau-Data_Visualization-005570)
 ![Statistics](https://img.shields.io/badge/Statistics-Hypothesis_Testing-orange)
-![Regression](https://img.shields.io/badge/Model-Linear_Regression-green)
-![Analysis](https://img.shields.io/badge/Business-Performance_Insights-blueviolet)
+![Regression](https://img.shields.io/badge/Regression-Linear_Model-green)
+![Analytics](https://img.shields.io/badge/Business-Analytics-blueviolet)
 
 ---
 
-## Project Overview  
-This project compares **Facebook** and **AdWords** digital campaigns using **Excel-based statistical techniques** and **Tableau visualization**.  
-The goal is to identify which platform delivers **higher conversions**, test the **statistical significance** of performance differences, and model **conversion predictability** using **simple linear regression**.
+# Project Overview
 
-**Tools Used:**  
-- **Microsoft Excel** – Data cleaning, descriptive statistics, hypothesis testing  
-- **Tableau** – Regression analysis and data visualization  
+This project analyzes the performance of **Facebook and AdWords digital marketing campaigns** to identify which platform delivers better conversion performance.
 
-**Dataset:** Digital campaign data with impressions, clicks, conversions, and cost metrics for Facebook and AdWords. 
+The analysis combines **Excel statistical analysis** and **Tableau visualization** to evaluate campaign effectiveness, test whether performance differences are statistically significant, and understand the relationship between clicks and conversions.
+
+The final goal is to provide **data-driven recommendations for marketing budget allocation and campaign optimization**.
 
 ---
 
-## Key Achievements
-- **Statistical Significance:** p-value < 0.05 confirms Facebook superiority
-- **Predictive Power:** Facebook shows strong correlation (r=0.87) vs AdWords (r=0.45)
-- **Business Impact:** 96% higher conversion efficiency on Facebook
-- **Technical Stack:** Excel statistical testing + Tableau regression modeling
+# Business Problem
+
+A marketing team is running advertising campaigns across multiple digital platforms but needs evidence-based insights to answer:
+
+* Which platform generates higher conversions?
+* Are conversion differences statistically significant?
+* Which platform has a stronger relationship between clicks and conversions?
+* Where should marketing budget be allocated to maximize campaign performance?
 
 ---
 
-## Business Objective  
-The marketing team aims to optimize ad budget allocation across platforms by determining:
-- Which platform generates **more conversions per click**  
-- Whether this difference is **statistically significant**  
-- Which platform has **stronger correlation** between clicks and conversions  
+# Project Objectives
+
+The main objectives of this analysis are:
+
+* Compare Facebook and AdWords campaign performance.
+* Analyze conversion efficiency across platforms.
+* Perform statistical hypothesis testing.
+* Measure the relationship between clicks and conversions.
+* Build a regression model to understand conversion trends.
+* Provide actionable recommendations for marketing decisions.
 
 ---
 
-## Statistical Analysis  
+# Dataset
 
-### 1. Descriptive Statistics  
-| Metric | Facebook | AdWords | Insight |
-|--------|-----------|---------|----------|
-| **Mean Clicks** | 44.05 | 60.38 | AdWords gets more clicks |
-| **Mean Conversions** | 11.74 | 5.98 | Facebook nearly doubles conversions |
-| **Std. Deviation (Conversions)** | 2.92 | 1.63 | Facebook shows higher variability (growth potential) |
+The dataset contains digital advertising campaign metrics for:
 
----
+* Facebook campaigns
+* AdWords campaigns
 
-### 2. Correlation Analysis (Excel Scatter Plot)  
-- **Facebook:** r = **0.87** → Strong positive correlation between clicks and conversions  
-- **AdWords:** r = **0.45** → Moderate correlation  
+### Key Metrics:
 
-**Interpretation:** Facebook conversions are more strongly and predictably linked to clicks.
-
----
-
-### 3. Hypothesis Testing (Two-Sample t-Test)  
-**H₀ (Null Hypothesis):** No significant difference in mean conversions between platforms.  
-**H₁ (Alternative):** There is a significant difference in mean conversions.  
-
-- **p-value:** < 0.05 → Reject H₀  
-**Result:** Facebook’s conversion performance is **significantly higher**.
+| Metric       | Description                                   |
+| ------------ | --------------------------------------------- |
+| Impressions  | Number of times advertisements were displayed |
+| Clicks       | Number of user interactions with ads          |
+| Conversions  | Number of successful outcomes                 |
+| Cost Metrics | Campaign spending information                 |
 
 ---
 
-### 4. Simple Linear Regression (Tableau)  
-**Model:**  
- 
-Facebook Ad Conversions = 0.204371*Facebook Ad Clicks + 2.76793
+# Tools & Technologies
 
-- Built in **Tableau** using trend line and regression summary.  
-- Suggests every **+1 click** leads to **~0.2 conversions** on average.  
-- Regression line shows **strong model fit (consistent with r = 0.87).**
+## Microsoft Excel
 
----
+Used for:
 
-## Regression Visualization (Tableau)
+* Data preparation
+* Descriptive statistics
+* Correlation analysis
+* Scatter plots
+* Two-sample t-test
+* Statistical interpretation
 
-<img width="1161" height="469" alt="image" src="https://github.com/user-attachments/assets/b190d3bf-e415-4e8d-be5d-33ed02cfcacc" />
+## Tableau
 
-**Tableau Public:** https://public.tableau.com/app/profile/sumaya.mateen/viz/Book1_17622622567270/RegressionModelFB  
+Used for:
 
----
-
-## Key Statistical Findings
-
-### Performance Comparison
-- **Facebook:** 11.74 mean conversions, strong predictability (r=0.87)
-- **AdWords:** 5.98 mean conversions, moderate correlation (r=0.45)
-
-### Statistical Significance
-- **t-test result:** p < 0.05 → Significant performance difference
-- **Confidence:** 95% confidence in Facebook's superior conversion rate
-- 
----
-
-## Strategic Recommendations  
-- **Reallocate Budget:** Shift ad spend toward **Facebook** for higher ROI.  
-- **Optimize AdWords Funnel:** Improve ad targeting and landing pages to lift conversions.  
-- **Scale Facebook Campaigns:** Utilize predictive regression insights for better forecasting.  
-- **Monitor AdWords Correlation:** Set KPI target of **r ≥ 0.6** for performance improvement.  
-- **Use Regression Outcomes:** Apply linear model to predict conversion growth scenarios.
+* Data visualization
+* Regression analysis
+* Trend line modeling
+* Business storytelling
 
 ---
 
-## Business Impact  
-| Impact Area | Outcome |
-|--------------|----------|
-| **ROI Improvement** | Facebook reallocations could yield ~96% higher conversions |
-| **Operational Efficiency** | Predictive insights enable data-driven media planning |
-| **Decision Support** | Clear, statistically validated evidence for budget strategy |
+# Data Analysis Workflow
+
+The project followed the following analytical process:
+
+```
+Data Understanding
+        ↓
+Data Preparation
+        ↓
+Exploratory Data Analysis
+        ↓
+Statistical Testing
+        ↓
+Regression Analysis
+        ↓
+Business Insights
+        ↓
+Recommendations
+```
 
 ---
 
-## Files Included
+# Statistical Analysis
 
-- [1_Digital_Campaigns_Performance_Metrics.xlsx](1_Digital_Campaigns_Performance_Metrics.xlsx) — Excel workbook with campaign performance metrics
-- [2_Statistics_of_Digital_Campaigns_Performance.pdf](2_Statistics_of_Digital_Campaigns_Performance.pdf) — PDF presentation with campaign statistical analysis
+## 1. Descriptive Statistics
+
+Performance comparison between Facebook and AdWords:
+
+| Metric                        | Facebook | AdWords | Insight                                               |
+| ----------------------------- | -------: | ------: | ----------------------------------------------------- |
+| Average Clicks                |    44.05 |   60.38 | AdWords generated more clicks                         |
+| Average Conversions           |    11.74 |    5.98 | Facebook generated nearly double conversions          |
+| Conversion Standard Deviation |     2.92 |    1.63 | Facebook showed higher variation and growth potential |
+
+### Key Insight
+
+Although AdWords generated more clicks, Facebook produced significantly higher conversions, indicating stronger conversion efficiency.
+
 ---
 
-## Tools & Techniques  
-- **Excel:** Descriptive Statistics, Histogram, Scatter Plot, Correlation, Two-Sample t-Test  
-- **Tableau:** Simple Linear Regression, Visual Storytelling  
-- **Statistical Methods:** Correlation (r), p-value testing, regression coefficient estimation  
+# 2. Correlation Analysis
+
+Correlation was used to measure the relationship between clicks and conversions.
+
+### Results:
+
+| Platform | Correlation (r) | Interpretation               |
+| -------- | --------------: | ---------------------------- |
+| Facebook |            0.87 | Strong positive relationship |
+| AdWords  |            0.45 | Moderate relationship        |
+
+### Insight
+
+Facebook conversions were more strongly associated with clicks, making campaign outcomes more predictable.
 
 ---
 
-## Project Context  
-**Course:** Statistics Foundations 
-**Program:** Meta Data Analyst with GenAI Professional Certificate  
-**Focus:** End-to-end data analysis project demonstrating real-world business application
+# 3. Hypothesis Testing
+
+A two-sample t-test was performed to determine whether the difference in conversion performance between Facebook and AdWords was statistically significant.
+
+### Hypothesis:
+
+**Null Hypothesis (H₀):**
+There is no significant difference in average conversions between Facebook and AdWords.
+
+**Alternative Hypothesis (H₁):**
+There is a significant difference in average conversions between Facebook and AdWords.
+
+### Result:
+
+* p-value < 0.05
+* Reject H₀
+
+### Conclusion:
+
+The difference in conversion performance between platforms is statistically significant.
+
+---
+
+# 4. Linear Regression Analysis
+
+A simple linear regression model was created in Tableau to analyze the relationship between Facebook clicks and conversions.
+
+### Regression Equation:
+
+```
+Facebook Conversions = 0.204371 × Facebook Clicks + 2.76793
+```
+
+### Interpretation:
+
+* Every additional click is associated with approximately **0.2 additional conversions**.
+* The strong correlation supports the reliability of the relationship.
+* The model provides insight into expected conversion changes as campaign engagement increases.
+
+---
+
+# Tableau Regression Visualization
+
+<img width="1161" height="469" alt="Facebook Regression Analysis" src="https://github.com/user-attachments/assets/b190d3bf-e415-4e8d-be5d-33ed02cfcacc" />
+
+### Tableau Public Dashboard
+
+https://public.tableau.com/app/profile/sumaya.mateen/viz/Book1_17622622567270/RegressionModelFB
+
+---
+
+# Key Business Insights
+
+## Campaign Performance
+
+* Facebook achieved higher average conversions compared with AdWords.
+* AdWords generated more clicks but converted users less effectively.
+* Facebook demonstrated stronger conversion predictability.
+
+## Statistical Findings
+
+* Statistical testing confirmed a significant difference between platforms.
+* Facebook performance showed stronger relationship between engagement and conversions.
+
+---
+
+# Business Recommendations
+
+Based on the analysis:
+
+### 1. Optimize Marketing Budget Allocation
+
+Increase investment in Facebook campaigns due to stronger conversion performance.
+
+### 2. Improve AdWords Conversion Funnel
+
+Investigate:
+
+* Audience targeting
+* Landing page experience
+* Ad relevance
+
+to improve conversion efficiency.
+
+### 3. Use Regression Insights for Planning
+
+Use the regression relationship to estimate expected conversion changes from increased campaign engagement.
+
+### 4. Monitor Campaign KPIs
+
+Track:
+
+* Click-through rate
+* Conversion rate
+* Cost per conversion
+* Return on advertising spend (ROAS)
+
+for continuous optimization.
+
+---
+
+# Business Impact
+
+| Impact Area            | Outcome                                               |
+| ---------------------- | ----------------------------------------------------- |
+| Marketing Strategy     | Identified higher-performing advertising channel      |
+| Decision Making        | Supported budget decisions using statistical evidence |
+| Campaign Optimization  | Provided insights into conversion drivers             |
+| Performance Monitoring | Established measurable campaign KPIs                  |
+
+---
+
+# Skills Demonstrated
+
+* Business Analytics
+* Data Cleaning
+* Exploratory Data Analysis
+* Statistical Analysis
+* Hypothesis Testing
+* Correlation Analysis
+* Linear Regression
+* Excel Analytics
+* Tableau Visualization
+* Data Storytelling
+* Business Recommendations
+
+---
+
+# Repository Structure
+
+```
+Digital-Marketing-Campaign-Analysis
+
+│
+├── Data
+│   └── Digital_Campaign_Performance.xlsx
+│
+├── Report
+│   └── Campaign_Performance_Analysis.pdf
+│
+├── Images
+│   └── Regression_Analysis.png
+│
+└── README.md
+```
+
+---
+
+# Files Included
+
+| File                              | Description                                                         |
+| --------------------------------- | ------------------------------------------------------------------- |
+| Digital_Campaign_Performance.xlsx | Excel workbook containing campaign metrics and statistical analysis |
+| Campaign_Performance_Analysis.pdf | Detailed analysis report and findings                               |
+
+---
+
+# Project Context
+
+**Focus Area:** Marketing Analytics, Statistical Analysis, Business Decision Making
+
+This project demonstrates an end-to-end analytical approach to transforming campaign data into actionable business insights.
