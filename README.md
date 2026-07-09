@@ -10,20 +10,20 @@
 
 ## Project Overview
 
-This project analyzes **Facebook and AdWords digital marketing campaign performance** to identify which platform generates better conversion outcomes.
+This project analyzes **Facebook and AdWords digital marketing campaign performance** to identify which platform delivers stronger conversion performance.
 
-The analysis combines **Excel statistical techniques** and **Tableau visualization** to evaluate campaign effectiveness, measure the relationship between clicks and conversions, and provide data-driven recommendations for marketing budget optimization.
+The analysis combines **Microsoft Excel statistical analysis** and **Tableau visualization** to compare campaign outcomes, evaluate the relationship between clicks and conversions, validate performance differences statistically, and provide data-driven recommendations for marketing optimization.
 
 ---
 
 ## Business Problem
 
-A marketing team wants to determine:
+A marketing team wants to improve advertising performance and needs insights to answer:
 
 * Which advertising platform generates higher conversions?
-* Whether performance differences between platforms are statistically significant.
-* Which platform provides more predictable conversion results.
-* How marketing budget can be allocated more effectively.
+* Are performance differences between platforms statistically significant?
+* Which platform shows a stronger relationship between user engagement and conversions?
+* How can marketing investment decisions be improved using data?
 
 ---
 
@@ -36,28 +36,29 @@ The dataset contains digital advertising campaign metrics for:
 
 ### Key Metrics
 
-| Metric       | Description                        |
-| ------------ | ---------------------------------- |
-| Impressions  | Number of times ads were displayed |
-| Clicks       | Number of user interactions        |
-| Conversions  | Number of successful outcomes      |
-| Cost Metrics | Advertising spend information      |
+| Metric       | Description                                     |
+| ------------ | ----------------------------------------------- |
+| Impressions  | Number of times advertisements were displayed   |
+| Clicks       | Number of user interactions with advertisements |
+| Conversions  | Number of successful outcomes generated         |
+| Cost Metrics | Advertising spending information                |
 
 ---
 
-## Tools & Technologies
+# Tools & Technologies
 
-### Microsoft Excel
+## Microsoft Excel
 
 Used for:
 
 * Data preparation
 * Descriptive statistics
+* Campaign comparison
 * Correlation analysis
 * Hypothesis testing
-* Performance comparison
+* Statistical interpretation
 
-### Tableau
+## Tableau
 
 Used for:
 
@@ -68,76 +69,133 @@ Used for:
 
 ---
 
-## Analysis Performed
+# Analysis Workflow
+
+The project followed an end-to-end analytical process:
+
+```
+Data Understanding
+        ↓
+Data Preparation
+        ↓
+Exploratory Data Analysis
+        ↓
+Statistical Analysis
+        ↓
+Visualization
+        ↓
+Business Insights
+        ↓
+Recommendations
+```
+
+---
+
+# Analysis Performed
 
 The project included:
 
-* Campaign performance comparison
+* Comparison of Facebook and AdWords campaign performance
 * Conversion efficiency analysis
-* Correlation analysis between clicks and conversions
+* Click-to-conversion relationship analysis
 * Statistical hypothesis testing
 * Linear regression analysis to understand conversion trends
 
 ---
 
-## Key Insights
+# Visualization Preview
 
-### Campaign Performance
-
-* Facebook generated significantly higher average conversions compared with AdWords.
-* AdWords achieved more clicks, but Facebook converted users more effectively.
-* Facebook showed a stronger relationship between clicks and conversions.
-
-### Statistical Findings
-
-* Hypothesis testing confirmed that the difference in conversion performance was statistically significant.
-* Facebook demonstrated stronger conversion predictability compared with AdWords.
-
----
-
-## Business Recommendations
-
-Based on the analysis:
-
-Increase investment in Facebook campaigns due to stronger conversion efficiency.
-
-Improve AdWords performance by optimizing:
-
-* Audience targeting
-* Ad relevance
-* Landing page experience
-
-Monitor important marketing KPIs:
-
-* Conversion Rate
-* Cost per Conversion
-* Click-Through Rate (CTR)
-* Return on Advertising Spend (ROAS)
-
----
-
-## Tableau Visualization
+## Tableau Regression Analysis
 
 <img width="1161" height="469" alt="Facebook Regression Analysis" src="https://github.com/user-attachments/assets/b190d3bf-e415-4e8d-be5d-33ed02cfcacc" />
 
-### Tableau Public
+### Tableau Public Visualization
 
 https://public.tableau.com/app/profile/sumaya.mateen/viz/Book1_17622622567270/RegressionModelFB
 
 ---
 
-## Business Impact
+# Key Insights
 
-| Area                  | Impact                                                 |
-| --------------------- | ------------------------------------------------------ |
-| Marketing Strategy    | Identified higher-performing advertising channel       |
-| Decision Making       | Supported budget allocation using statistical evidence |
-| Campaign Optimization | Revealed key conversion performance drivers            |
-| Analytics Capability  | Demonstrated end-to-end marketing analytics workflow   |
+## 1. Facebook Demonstrated Stronger Conversion Performance
+
+Facebook generated approximately **96% more average conversions compared with AdWords** (11.74 vs 5.98) despite receiving fewer clicks, indicating stronger conversion efficiency.
+
+## 2. AdWords Generated More Traffic but Lower Conversion Outcomes
+
+Although AdWords received higher click volume, it produced fewer conversions. This indicates opportunities to improve audience targeting, advertisement messaging, and the conversion journey.
+
+## 3. Facebook Showed More Predictable Conversion Behavior
+
+Facebook demonstrated a stronger relationship between clicks and conversions:
+
+* Facebook correlation: **r = 0.87**
+* AdWords correlation: **r = 0.45**
+
+This indicates Facebook conversion outcomes were more closely associated with user engagement.
 
 ---
 
-## Skills Demonstrated
+# Statistical Findings
+
+A hypothesis test was performed to evaluate whether the difference in conversion performance between Facebook and AdWords was statistically significant.
+
+### Result:
+
+* p-value < 0.05
+* The difference in average conversions between platforms was statistically significant.
+
+This provides statistical evidence that Facebook performed better in terms of conversion generation.
+
+---
+
+# Business Recommendations
+
+## 1. Optimize Marketing Investment
+
+Increase focus on Facebook campaigns while continuing to evaluate:
+
+* Conversion performance
+* Campaign costs
+* Overall efficiency
+
+## 2. Improve AdWords Conversion Performance
+
+Test improvements in:
+
+* Audience targeting
+* Advertisement creatives
+* Messaging strategy
+* Landing page experience
+
+## 3. Scale High-Performing Campaigns
+
+Gradually expand Facebook campaigns while monitoring important performance indicators.
+
+## 4. Monitor Campaign KPIs
+
+Track:
+
+* Conversion Rate
+* Cost per Conversion
+* Click-Through Rate (CTR)
+* Click-to-Conversion Rate
+* Campaign Efficiency
+
+---
+
+# Business Impact
+
+| Area                  | Impact                                                   |
+| --------------------- | -------------------------------------------------------- |
+| Marketing Strategy    | Identified higher-performing advertising platform        |
+| Decision Making       | Supported marketing decisions using statistical evidence |
+| Campaign Optimization | Revealed factors influencing conversion performance      |
+| Analytics Capability  | Demonstrated complete marketing analytics workflow       |
+
+---
+
+# Skills Demonstrated
 
 * Business Analytics
 * Exploratory Data Analysis (EDA)
@@ -145,14 +203,14 @@ https://public.tableau.com/app/profile/sumaya.mateen/viz/Book1_17622622567270/Re
 * Hypothesis Testing
 * Correlation Analysis
 * Linear Regression
-* Excel Analytics
+* Microsoft Excel Analytics
 * Tableau Visualization
 * Data Storytelling
 * Business Recommendations
 
 ---
 
-## Repository Structure
+# Repository Structure
 
 ```
 Digital-Marketing-Campaign-Analysis
@@ -160,24 +218,26 @@ Digital-Marketing-Campaign-Analysis
 │
 ├── Digital_Campaign_Performance.xlsx
 ├── Campaign_Performance_Analysis.pdf
-├── Regression_Analysis.png
+├── Correlation_Analysis.png
+├── Campaign_Conversion_Comparison.png
 └── README.md
 ```
 
 ---
 
-## Files Included
+# Files Included
 
-| File                              | Description                                                         |
-| --------------------------------- | ------------------------------------------------------------------- |
-| Digital_Campaign_Performance.xlsx | Excel workbook containing campaign metrics and statistical analysis |
-| Campaign_Performance_Analysis.pdf | Detailed statistical analysis report                                |
-| Regression_Analysis.png           | Tableau regression visualization                                    |
+| File                               | Description                                                       |
+| ---------------------------------- | ----------------------------------------------------------------- |
+| Digital_Campaign_Performance.xlsx  | Excel workbook containing campaign data and statistical analysis  |
+| Campaign_Performance_Analysis.pdf  | Detailed analytical report with findings and recommendations      |
+| Correlation_Analysis.png           | Visualization showing relationship between clicks and conversions |
+| Campaign_Conversion_Comparison.png | Comparison visualization of campaign performance                  |
 
 ---
 
-## Project Context
+# Project Context
 
 **Focus Area:** Marketing Analytics, Statistical Analysis, Business Decision Making
 
-This project demonstrates how marketing data can be transformed into actionable insights using analytical methods, statistical validation, and visualization techniques.
+This project demonstrates how digital marketing data can be transformed into actionable business insights through statistical analysis, visualization, and data-driven recommendations.
